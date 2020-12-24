@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ledger-hack-check/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ledger-hack-check/static/js/main.8573a69f.chunk.js",
+    "main.js.map": "/ledger-hack-check/static/js/main.8573a69f.chunk.js.map",
+    "runtime-main.js": "/ledger-hack-check/static/js/runtime-main.88c74f04.js",
+    "runtime-main.js.map": "/ledger-hack-check/static/js/runtime-main.88c74f04.js.map",
+    "static/js/2.ea389e44.chunk.js": "/ledger-hack-check/static/js/2.ea389e44.chunk.js",
+    "static/js/2.ea389e44.chunk.js.map": "/ledger-hack-check/static/js/2.ea389e44.chunk.js.map",
+    "index.html": "/ledger-hack-check/index.html",
+    "precache-manifest.d89c76ad7eb67aa1e64fd73d9311e3cc.js": "/ledger-hack-check/precache-manifest.d89c76ad7eb67aa1e64fd73d9311e3cc.js",
+    "service-worker.js": "/ledger-hack-check/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ledger-hack-check/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ea389e44.chunk.js.LICENSE.txt": "/ledger-hack-check/static/js/2.ea389e44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88c74f04.js",
+    "static/js/2.ea389e44.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8573a69f.chunk.js"
+  ]
+}
