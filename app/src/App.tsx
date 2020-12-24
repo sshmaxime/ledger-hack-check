@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { hashed_ledger_hack } from "./hashed_ledger_hack";
-import CryptoJs from "crypto-js";
+import { SHA256 } from "crypto-js";
 
 const defaultState = (): {
   field: string;
@@ -20,10 +20,7 @@ function App() {
   };
 
   const handleSubmit = (event: any) => {
-    if (
-      hashed_ledger_hack.get(CryptoJs.SHA256(state.field).toString()) ===
-      undefined
-    ) {
+    if (hashed_ledger_hack.get(SHA256(state.field).toString()) === undefined) {
       setState({ ...state, found: false });
     } else {
       setState({ ...state, found: true });
